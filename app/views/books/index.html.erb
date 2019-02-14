@@ -1,0 +1,4 @@
+<h1>This is the Books index page.</h1>
+<% @books.each do |book| %>
+  <p><%= book.title %> by <%= book.author_name %>
+<% end %>
